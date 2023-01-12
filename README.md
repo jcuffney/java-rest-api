@@ -11,11 +11,11 @@
     `git clone git@github.com:jcuffney/java-rest-api.git`
 
 - From here if you open up the `FilmApplication.java` file and execute the program it should build and run successfully
-- Open a browser to `http://localhost/8080` and you should see an error page - this is the root of our API's server.
+- Open a browser to `http://localhost:8080` and you should see an error page - this is the root of our API's server.
 - update the route to the following and you should observe some data returned for the following routes (urls)
-  - http://localhost/8080/film
-  - http://localhost/8080/film/1
-  - http://localhost/8080/film/health
+  - http://localhost:8080/film
+  - http://localhost:8080/film/1
+  - http://localhost:8080/film/health
 - look over the 3 java files in this project and try to see what they are doing and we can discuss.
 
 ## Context / Goals
