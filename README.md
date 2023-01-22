@@ -25,9 +25,19 @@ REST API's are the defaco way of sending data around although there are others t
 Although this is a very simple project (all it does is return a representation of films) we can evolve this 
 project in may ways that can show you different aspects of real world programming such as
 
-- git flows
-- debugging
-- testing
+- [x] debugging
+- [ ] git flows
+  - Steps to try
+      1. `git checkout -b <your branch name>`
+      2. `git branch`
+      3. `git status`
+  3.5. `git add README.md ...`
+      4. `git commit -m "our commit message"`
+      5. `git push` 
+      6. Open a PR in Github merging your new branch into `main`
+      7. tag Joe as a reviewer
+      8. once reviewed - merge it in
+- [ ] testing
 - continuous integration
 - deployments / cloud infrastructure
 - authentication
